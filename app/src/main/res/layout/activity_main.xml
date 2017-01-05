@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/widget34"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Location"
+            android:textColor="#000000"
+            />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="77pt"
+            android:layout_height="wrap_content"
+            android:hint="First City Name"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            >
+
+
+        </EditText>
+
+    </TableRow>
+
+    <TableRow >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second Location"
+            android:textColor="#000000"
+
+            />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="77pt"
+            android:layout_height="wrap_content"
+            android:hint="Second City Name"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            >
+
+
+
+        </EditText>
+
+    </TableRow>
+
+    <TableRow >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance in KM"
+            android:textColor="#000000"
+            />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="77pt"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            />
+
+
+
+
+
+    </TableRow>
+
+    <TableRow >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time to Reach"
+            android:textColor="#000000"
+
+            />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="77pt"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            >
+
+        </EditText>
+
+        <TableRow >
+
+
+        </TableRow>
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to Calculate Distance"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        />
+
+</TableLayout>
